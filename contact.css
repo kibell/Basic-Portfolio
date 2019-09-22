@@ -95,4 +95,15 @@ textarea
     clear:left;
     width:75%;
 margin: 5px;
+border: 1px solid;
 }
+
+button
+{clear:both;
+float: left;
+margin: 5px;
+background: #4aaaa5;
+color: #ebebeb;
+height: 50px;
+width: 75px;
+font-size: 12px;}
