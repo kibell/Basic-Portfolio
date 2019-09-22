@@ -1,0 +1,98 @@
+body 
+{ margin: 100px; 
+Border: #dddddd;
+background-image: url("circle-blues.png");
+width: 960px;
+font-size: 18px;    
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+color: #777777;
+}
+
+
+section
+{ background: #ffffff;
+    border-style: solid;
+    margin:20px;
+    height: 500px;
+
+    
+}
+
+nav
+{ 
+    height: 110px;
+    border: 1px solid #777777;
+    background: #ebebeb;
+}
+
+
+
+nav ul
+{ list-style: none;
+    background:#ebebeb;
+    text-align: center;
+    padding: 0;
+    
+    }
+
+
+
+li
+{
+    color: #777;
+    margin: 20px;
+    padding: 20px;
+    float: right;
+list-style: none;
+
+
+}
+
+h1
+{
+    background: #4aaaa5;
+    text-align: left;
+    float:left;
+    padding: 20px;
+    margin: 0px;
+    height:50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#ebebeb;
+}
+
+
+
+h2
+{
+    clear:left;
+    color: #4aaaa5;
+    margin:8px;
+    width: 200px;
+    height: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+hr
+{clear: both;
+margin:10px;
+
+}
+
+footer
+{ background: #666666;
+border-style: solid;
+border:5px solid #4aaaa5;
+}
+
+label
+{
+float:left;
+clear:left;
+Margin: 5px;
+}
+textarea
+{ float:left;
+    clear:left;
+    width:75%;
+margin: 5px;
+}
