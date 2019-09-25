@@ -13,14 +13,14 @@ color: #777777;
 section
 { background: #ffffff;
     border-style: solid;
-    margin:20px;
+    margin:1px;
     height: 800px;
 
     
 }
 
 nav
-{ 
+{  
     height: 110px;
     border: 1px solid #777777;
     background: #ebebeb;
@@ -109,7 +109,7 @@ border: 1px solid;
 { 
     content: "";
     clear: both;
-    display: table;
+    display: inline-block;
     margin: 15px;
   }
 
@@ -130,4 +130,9 @@ border: 1px solid;
 div
 {
     position: relative;
+}
+
+.block
+{
+    display: inline-block
 }

@@ -1,7 +1,7 @@
 body 
 { margin: 100px; 
 Border: #dddddd;
-background-image: url("circle-blues.png");
+
 width: 960px;
 font-size: 18px;    
 text-align: center;
@@ -48,12 +48,12 @@ list-style: none;
 
 }
 
-h1
+.name
 {
     background: #4aaaa5;
     text-align: left;
     float:left;
-    padding: 20px;
+    padding: 0px;
     margin: 0px;
     height:50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -96,4 +96,6 @@ h3
    
 }
 
-
+header{
+    float:top;
+}
