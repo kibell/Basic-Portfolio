@@ -47,7 +47,8 @@ section
 {  display: inline-block;
      background: #ffffff;
     border-style: solid;
-    margin:10px;
+    margin-left:100px;
+    width:85%;
     clear:both;
    
     
@@ -64,30 +65,29 @@ h2{
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
 img
 {
     width:200px;
     float:left;
     clear: left;
-    margin: 8px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
     border: 5px solid #4aaaa5;
 }
 
+p
+{
+    text-align: left;
+    margin: 4px;
+    padding: 4px;
+    color: #777;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 hr
 {clear: both;
-margin:10px;
+
 
 }
 
@@ -95,11 +95,21 @@ footer
 { background: #666666;
 border-style: solid;
 border:5px solid #4aaaa5;
+height: 60px;
+color: white;
+text-align:center;
+margin:25px;
+font-weight: bold;
+font-size: 15px;
 }
 
 h3
 {
     Float: left;
+    font-weight:bold;
+    font-size: 20px;
+    margin:5px;
+   
    
 }
 
