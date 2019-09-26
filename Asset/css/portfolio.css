@@ -67,11 +67,11 @@ h2{
 
 img
 { float: left;
-    position: relative;
-    width: 250px;
+   margin:50px;
+    
     height: 200px;
     background: #4aaaa5;
-    margin: 50px;
+    
     
 }
 

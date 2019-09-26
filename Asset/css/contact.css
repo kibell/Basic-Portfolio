@@ -1,77 +1,71 @@
-body 
-{ margin: 100px; 
-Border: #dddddd;
-background-image: url("circle-blues.png");
-width: 960px;
-font-size: 18px;    
-text-align: center;
-font-family: Arial, Helvetica, sans-serif;
-color: #777777;
-}
 
+.name
+{
+    float: left;
+    background: #4aaaa5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#ebebeb;
+    font-size: 28px;
+    padding: 44px;
+    margin-left: 25px;
+    font-weight: 600;
 
-section
-{ background: #ffffff;
-    border-style: solid;
-    margin:20px;
-    height: 500px;
-
-    
 }
 
 nav
 { 
     height: 110px;
-    border: 1px solid #777777;
+    border: 3px solid #777777;
     background: #ebebeb;
 }
 
-
-
 nav ul
-{ list-style: none;
-    background:#ebebeb;
-    text-align: center;
-    padding: 0;
+{ 
+    text-decoration: none;
+    
     
     }
-
-
-
-li
-{
+a{
+    text-decoration: none;
     color: #777;
-    margin: 20px;
-    padding: 20px;
+    font: weight 600;
+    
+}
+    
+li
+    { list-style: none;
+     font-size: 28px;
+    background:#ebebeb;
     float: right;
-list-style: none;
-
-
-}
-
-h1
-{
-    background: #4aaaa5;
-    text-align: left;
-    float:left;
     padding: 20px;
-    margin: 0px;
-    height:50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color:#ebebeb;
+   margin:25px;
+    
+  
+    }
+
+section
+{  display: inline-block;
+     background: #ffffff;
+    border-style: solid;
+    margin-left:100px;
+    width:85%;
+    clear:both;
+   
+    
+}
+
+h2{
+    float: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#4aaaa5;
+    font-size: 28px;
+    padding: 4px;
+    margin-left: 0px;
+    font-weight: bold;
+
 }
 
 
-
-h2
-{
-    clear:left;
-    color: #4aaaa5;
-    margin:8px;
-    width: 200px;
-    height: 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
 hr
 {clear: both;
 margin:10px;
@@ -82,6 +76,12 @@ footer
 { background: #666666;
 border-style: solid;
 border:5px solid #4aaaa5;
+height: 60px;
+color: white;
+text-align:center;
+margin:25px;
+font-weight: bold;
+font-size: 15px;
 }
 
 label
