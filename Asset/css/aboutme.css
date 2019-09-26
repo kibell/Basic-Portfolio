@@ -48,7 +48,7 @@ section
      background: #ffffff;
     border-style: solid;
     margin-left:100px;
-    width:85%;
+    width:75%;
     clear:both;
    
     
@@ -78,6 +78,7 @@ img
 
 p
 {
+    
     text-align: left;
     margin: 4px;
     padding: 4px;
@@ -109,6 +110,7 @@ h3
     font-weight:bold;
     font-size: 20px;
     margin:5px;
+    padding: 5px;
    
    
 }
